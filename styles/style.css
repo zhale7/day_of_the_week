@@ -1,0 +1,39 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+/* Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #64e6ed;
+    border-radius: 8px;
+    box-shadow: -1px 4px 10px -1px rgba(66, 68, 90, 1);
+}
+h1 {
+  font-size: 55px;
+}
+#dayOftheWeek {
+  margin: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(130, 12, 12);
+}
+p {
+  font-size: 40px;
+}
